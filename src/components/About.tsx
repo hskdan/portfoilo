@@ -11,7 +11,7 @@ const About = () => (
       </div>
       {/* 프로필 정보 */}
       <div className="flex-1 w-full">
-        <div className="mb-2 text-xl font-bold">JEA</div>
+        <div className="mb-2 text-xl font-bold">테스트</div>
         <div className="mb-4 text-sm text-gray-300">이름: 황선경<br/>포지션: 명상 서비스 기획 / FE Developer(프론트엔드)</div>
         <hr className="my-3 border-gray-600" />
         <div className="mb-2 font-semibold text-base text-blue-300">_Contact</div>
