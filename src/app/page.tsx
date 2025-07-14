@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -29,7 +28,6 @@ export default function Home() {
           <a href="#about" className="hover:underline">소개</a>
           <a href="#skills" className="hover:underline">전문 역량</a>
           <a href="#projects" className="hover:underline">프로그램</a>
-          <a href="#contact" className="hover:underline">연락처</a>
         </nav>
       </header>
       <main className="flex-1 w-full">
@@ -37,7 +35,6 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
       </main>
       {/* Top 버튼 */}
       {showTop && (
