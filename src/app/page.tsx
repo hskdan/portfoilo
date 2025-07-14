@@ -23,7 +23,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#0a1a2f] text-white flex flex-col">
       {/* 네비게이션 바 */}
       <header className="w-full py-4 px-8 flex justify-between items-center bg-[#14213d] shadow-md sticky top-0 z-20">
-        <span className="text-xl font-bold tracking-tight">호흡명상 전문가</span>
+        <span className="text-xl font-bold tracking-tight">명상마스터</span>
         <nav className="space-x-8 text-base font-medium">
           <a href="#about" className="hover:underline">소개</a>
           <a href="#skills" className="hover:underline">전문 역량</a>
